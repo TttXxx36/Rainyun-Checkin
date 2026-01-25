@@ -43,7 +43,7 @@ docker-compose up --build
 | TG_USER_ID | ❌ | - | Telegram 用户 ID |
 
 > ℹ️ 只要配置了对应 key/必要字段即会启用，可同时配置多个；完整列表见 `.env.example` 的「推送服务」分组。
-记得同时在docker-compose和Dockerfile按照server酱的示例填一下，因为罗列所有的感觉太多了所以没加
+> 只需在 `.env` 中填写即可，`docker-compose.yml` 已通过 `env_file` 自动加载，无需逐条写到 `environment`。
 
 ### 自动续费（可选）
 
