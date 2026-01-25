@@ -1,5 +1,3 @@
-我来帮你优化这份 README，让它更清晰、更专业，并添加更多实用信息：
-
 # 🌧️ 雨云自动签到 (GitHub Actions 版) v2.5
 
 [https://img.shields.io/badge/GitHub_Actions-自动签到-blue.svg](https://github.com/features/actions)
